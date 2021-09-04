@@ -45,9 +45,170 @@ h1, h2, h3, h4, p{
     margin:5% 0px;
     color: #ffffff;
     font-size: 24px;
+   
 }
+p::after{
+    content: " ";
+    animation: change-text 7s linear infinite;
+}
+
 @keyframes change-text {
-    0%{}
+    0% {
+        content: "D|";
+    }
+
+    2% {
+        content: "De|";
+    }
+
+    3% {
+        content: "Des|";
+    }
+
+    4% {
+        content: "Desi|";
+    }
+
+    5% {
+        content: "Desig|";
+    }
+
+    6% {
+        content: "Design|";
+    }
+
+    7% {
+        content: "Designe|";
+    }
+
+    8% {
+        content: "Designer|";
+    }
+
+    9% {
+        content: "Designer |";
+    }
+
+    10% {
+        content: "Designer|";
+    }
+
+    11% {
+        content: "Designe|";
+    }
+
+    13% {
+        content: "Design|";
+    }
+
+    14% {
+        content: "Desig|";
+    }
+
+    15% {
+        content: "Desi|";
+    }
+
+    16% {
+        content: "Desi|";
+    }
+
+    17% {
+        content: "Des|";
+    }
+
+    18% {
+        content: "De|";
+    }
+
+    19% {
+        content: "D|";
+    }
+
+    20% {
+        content: "|";
+    }
+
+    21% {
+        content: "D|";
+    }
+
+    22% {
+        content: "De|";
+    }
+
+    23% {
+        content: "Dev|";
+    }
+
+    24% {
+        content: "Deve|";
+    }
+
+    25% {
+        content: "Devel|";
+    }
+
+    25% {
+        content: "Develo|";
+    }
+
+    26% {
+        content: "Develop|";
+    }
+
+    27% {
+        content: "Develope|";
+    }
+
+    28% {
+        content: "Developer|";
+    }
+
+    29% {
+        content: "Developer |";
+    }
+
+    30% {
+        content: "Develope|";
+    }
+
+    31% {
+        content: "Develop|";
+    }
+
+    32% {
+        content: "Develo|";
+    }
+
+    33% {
+        content: "Devel|";
+    }
+
+    34% {
+        content: "Deve|";
+    }
+
+    35% {
+        content: "Dev|";
+    }
+
+    36% {
+        content: "De|";
+    }
+
+    37% {
+        content: "D|";
+    }
+
+    38% {
+        content: "|";
+    }
+    100%{
+        content: " ";
+    }
+
+   
     
 }
 
